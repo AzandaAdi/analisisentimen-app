@@ -7,6 +7,10 @@ from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 import swifter # Pastikan swifter terinstal: pip install swifter
 import ast # Untuk ast.literal_eval
 
+# Tambahkan path NLTK lokal (relative ke file ini)
+nltk_data_path = os.path.join(os.path.dirname(__file__), '..', 'nltk_data')
+nltk.data.path.append(nltk_data_path)
+
 # Pastikan sumber daya NLTK sudah diunduh
 try:
     nltk.data.find('corpora/stopwords')
