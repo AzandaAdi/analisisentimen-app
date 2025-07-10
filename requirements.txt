@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+nltk
+Sastrawi
+swifter
+openpyxl
+matplotlib
+seaborn
+scikit-learn
