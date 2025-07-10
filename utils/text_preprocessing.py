@@ -6,6 +6,7 @@ from nltk.tokenize import word_tokenize
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 import swifter # Pastikan swifter terinstal: pip install swifter
 import ast # Untuk ast.literal_eval
+import os
 
 # Tambahkan path NLTK lokal (relative ke file ini)
 nltk_data_path = os.path.join(os.path.dirname(__file__), '..', 'nltk_data')
